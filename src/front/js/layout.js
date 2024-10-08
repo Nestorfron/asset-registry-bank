@@ -19,7 +19,7 @@ const Layout = ({ Component, pageProps }) => {
   return (
     <NextUIProvider>
       <NextThemesProvider attribute="class" defaultTheme="dark">
-        <BrowserRouter basename={basename} {...pageProps}>
+        <BrowserRouter {...pageProps}>
           <ScrollToTop>
             <Navbar />
             <Routes>
