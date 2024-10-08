@@ -563,40 +563,6 @@ video {
   background-color: hsl(var(--nextui-background));
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -856,11 +822,6 @@ video {
   margin-bottom: 4rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-\[calc\(\(theme\(spacing\.5\)-theme\(spacing\.1\)\)\/2\)\] {
   margin-top: calc((1.25rem - 0.25rem) / 2);
   margin-bottom: calc((1.25rem - 0.25rem) / 2);
@@ -1068,10 +1029,6 @@ video {
   height: 300px;
 }
 
-.h-\[400px\] {
-  height: 400px;
-}
-
 .h-\[calc\(100dvh_-_var\(--navbar-height\)\)\] {
   height: calc(100dvh - var(--navbar-height));
 }
@@ -1107,10 +1064,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[500px\] {
-  height: 500px;
 }
 
 .max-h-64 {
@@ -1281,14 +1234,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[140px\] {
-  width: 140px;
-}
-
-.w-\[440px\] {
-  width: 440px;
 }
 
 .min-w-10 {
@@ -2567,6 +2512,10 @@ video {
   padding-bottom: 1rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .pe-2 {
   padding-inline-end: 0.5rem;
 }
@@ -2601,10 +2550,6 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
 }
 
 .text-left {
@@ -3423,19 +3368,9 @@ video {
 
 .dark,[data-theme="dark"] {
   color-scheme: dark;
-  --nextui-background: 0 0% 0%;
-  --nextui-foreground-50: 240 5.88% 10%;
-  --nextui-foreground-100: 240 3.7% 15.88%;
-  --nextui-foreground-200: 240 5.26% 26.08%;
-  --nextui-foreground-300: 240 5.2% 33.92%;
-  --nextui-foreground-400: 240 3.83% 46.08%;
-  --nextui-foreground-500: 240 5.03% 64.9%;
-  --nextui-foreground-600: 240 4.88% 83.92%;
-  --nextui-foreground-700: 240 5.88% 90%;
-  --nextui-foreground-800: 240 4.76% 95.88%;
-  --nextui-foreground-900: 0 0% 98.04%;
-  --nextui-foreground: 210 5.56% 92.94%;
-  --nextui-focus: 212.01999999999998 100% 46.67%;
+  --nextui-background: 270 100% 5.1%;
+  --nextui-foreground: 0 0% 100%;
+  --nextui-focus: 297.4100000000001 86.57% 73.73%;
   --nextui-overlay: 0 0% 0%;
   --nextui-divider: 0 0% 100%;
   --nextui-divider-opacity: 0.15;
@@ -3459,18 +3394,18 @@ video {
   --nextui-default-900: 0 0% 98.04%;
   --nextui-default-foreground: 0 0% 100%;
   --nextui-default: 240 5.26% 26.08%;
-  --nextui-primary-50: 211.84000000000003 100% 9.61%;
-  --nextui-primary-100: 211.84000000000003 100% 19.22%;
-  --nextui-primary-200: 212.24 100% 28.82%;
-  --nextui-primary-300: 212.14 100% 38.43%;
-  --nextui-primary-400: 212.01999999999998 100% 46.67%;
-  --nextui-primary-500: 212.14 92.45% 58.43%;
-  --nextui-primary-600: 212.24 92.45% 68.82%;
-  --nextui-primary-700: 211.84000000000003 92.45% 79.22%;
-  --nextui-primary-800: 211.84000000000003 92.45% 89.61%;
-  --nextui-primary-900: 212.5 92.31% 94.9%;
+  --nextui-primary-50: 270.29999999999995 84.62% 22.94%;
+  --nextui-primary-100: 274.6600000000001 79.45% 28.63%;
+  --nextui-primary-200: 279.56999999999994 74.19% 36.47%;
+  --nextui-primary-300: 284.15 69.43% 44.9%;
+  --nextui-primary-400: 288.47 75.32% 53.92%;
+  --nextui-primary-500: 293.0899999999999 79.43% 65.69%;
+  --nextui-primary-600: 297.4100000000001 86.57% 73.73%;
+  --nextui-primary-700: 302.28 92.94% 83.33%;
+  --nextui-primary-800: 306 90.91% 91.37%;
+  --nextui-primary-900: 300 90% 96.08%;
   --nextui-primary-foreground: 0 0% 100%;
-  --nextui-primary: 212.01999999999998 100% 46.67%;
+  --nextui-primary: 293.0899999999999 79.43% 65.69%;
   --nextui-secondary-50: 270 66.67% 9.41%;
   --nextui-secondary-100: 270 66.67% 18.82%;
   --nextui-secondary-200: 270 66.67% 28.24%;
@@ -3520,7 +3455,7 @@ video {
   --nextui-danger-foreground: 0 0% 100%;
   --nextui-danger: 339.20000000000005 90.36% 51.18%;
   --nextui-divider-weight: 1px;
-  --nextui-disabled-opacity: .5;
+  --nextui-disabled-opacity: 0.3;
   --nextui-font-size-tiny: 0.75rem;
   --nextui-font-size-small: 0.875rem;
   --nextui-font-size-medium: 1rem;
@@ -3529,9 +3464,9 @@ video {
   --nextui-line-height-small: 1.25rem;
   --nextui-line-height-medium: 1.5rem;
   --nextui-line-height-large: 1.75rem;
-  --nextui-radius-small: 8px;
-  --nextui-radius-medium: 12px;
-  --nextui-radius-large: 14px;
+  --nextui-radius-small: 4px;
+  --nextui-radius-medium: 6px;
+  --nextui-radius-large: 8px;
   --nextui-border-width-small: 1px;
   --nextui-border-width-medium: 2px;
   --nextui-border-width-large: 3px;
